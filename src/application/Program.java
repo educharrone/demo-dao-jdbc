@@ -30,6 +30,16 @@ public class Program {
 		{
 			System.out.println(obj);						
 		}
+
+		
+		System.out.println("\n=== TESTE 3 == FINDALL");
+		list = sellerDAO.findAll();
+		for(Seller obj: list)
+		{
+			System.out.println(obj);						
+		}
+		
+		
 		
 	}
 
